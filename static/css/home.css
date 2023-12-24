@@ -23,4 +23,20 @@ body {
 
 .arrows ion-icon:hover {
   background-color: blue;
+}
+
+.nav_bar {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+
+.nav_bar nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav_bar nav a {
+  display: flex;
+  margin-right: 12%;
 }/*# sourceMappingURL=home.css.map */
