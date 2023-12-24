@@ -1,0 +1,26 @@
+body {
+  background-image: url("/static/images/ChelseaHomePage.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.arrows {
+  color: whitesmoke;
+  font-size: 100%;
+  position: absolute;
+  top: 50%;
+  left: 90%;
+}
+
+.arrows ion-icon {
+  margin: 0 8px;
+  border: 2px solid white;
+  padding: 12px;
+  transition: background-color 0.3s;
+}
+
+.arrows ion-icon:hover {
+  background-color: blue;
+}/*# sourceMappingURL=home.css.map */
