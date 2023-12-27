@@ -3,6 +3,11 @@
     src: url(/static/fonts/DIN\ Medium.ttf);
   }
 
+@font-face {
+    font-family: Nimbus;
+    src: url(/static/fonts/NimbusSanL-Bol.otf);
+}
+
 body{
     background-image: url("/static/images/ChelseaHomePage.jpg");
     background-repeat: no-repeat;
@@ -17,7 +22,7 @@ body{
     color: whitesmoke;
     font-size: 100%;
     position: absolute;
-    top: 50%;
+    top: 27%;
     left: 90%;
 }
 
@@ -80,3 +85,100 @@ body{
     margin-left: 89%;
 }
 
+.match{
+    display: flex;
+    align-items: center;
+    margin-left: 13%;
+    margin-top: 12%;
+}
+
+.square{
+    width: 9px;
+    height: 9px;
+    background-color: blue;
+    margin-right: 20px; 
+}
+
+.match_text{
+    font-family: Din;
+    text-decoration: underline;
+    color: white;
+}
+
+.chelsea_text{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left: 13%;
+  margin-top: -1%;
+}
+
+.chelsea_text h2{
+    font-family: Nimbus;
+    font-size: 230%;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.chelsea_text p{
+    font-family: Din;
+    color: white;
+    margin-top: 0;
+}
+
+button{
+    position: relative;
+    margin-left: 13%;
+    padding: 12px;
+    background-color: blue;
+    border: transparent;
+    color: white;
+    font-family: Din;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 13%;
+    margin-left: 13%;
+    color: white;
+    font-family: Din;
+}
+
+.links .cc{
+    margin-right: 32px;
+}
+
+.links div{
+    margin-right: 77px;
+    display: flex;
+    align-items: center;
+}
+
+
+.links div a{
+    margin-right: 13px;
+    color: white;
+}
+
+.mini_video{
+    display: flex;
+    margin-left: 69%;
+    align-items: center;
+    position: absolute;
+    margin-top:-9%;
+}
+
+.mini_video .white_square{
+   background-color: white;
+   font-family: Din;
+   font-size: smaller;
+   padding: 16.5px;
+}
+
+.mini_video video{
+    height:50%;
+    width: 50%;
+    border: solid white 2px;
+}
