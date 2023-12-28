@@ -8,6 +8,11 @@
     src: url(/static/fonts/NimbusSanL-Bol.otf);
 }
 
+@font-face {
+    font-family: Without;
+    src: url(/static/fonts/WithoutAltSans-Book.ttf);
+}
+
 body{
     background-image: url("/static/images/chelsea\ bg.png");
     background-repeat: no-repeat;
@@ -38,4 +43,61 @@ body{
     font-family: Din;
     text-decoration: none;
     color: white;
+}
+
+.first_news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    font-size: smaller;
+    transition: transform 0.3s ease-in-out; 
+    overflow: hidden;
+}
+
+
+.first_news div{
+    padding: 72px;
+    border: solid white 4px;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: Without;
+}
+
+.first_news div span{
+    background-color: indigo;
+    font-family: Din;
+    font-size: 82%;
+    color: white;
+    padding: 1%;
+}
+
+
+.first_news img{
+    border: solid 2px white;
+    transition: transform 0.3s ease-in-out; 
+    overflow: hidden;
+}
+
+.first_news div a{
+    color: black;
+    font-size: 82%;
+    text-decoration: none;
+}
+
+.first_news ion-icon{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: -57%;
+    color: white;
+    font-size: 515%;
+}
+
+
+.first_news img:hover {
+    transform: scale(1.1);
+}
+
+.first_news div:hover {
+    text-decoration: underline;
 }
