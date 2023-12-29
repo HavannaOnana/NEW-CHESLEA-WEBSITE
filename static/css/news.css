@@ -70,7 +70,7 @@ body {
 }
 
 .first_news img {
-  border: solid 2px white;
+  border: solid 3px white;
   transition: transform 0.3s ease-in-out;
   overflow: hidden;
 }
@@ -95,4 +95,49 @@ body {
 
 .first_news div:hover {
   text-decoration: underline;
+}
+
+.mini_news {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-top: 2%;
+}
+
+.first_mini {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  font-family: Without;
+  position: relative; /* Add position relative for positioning the background container */
+}
+
+.first_mini img {
+  border: solid 2px white;
+  width: 20%; /* Add this to match the image width */
+}
+
+.first_mini .background_container {
+  position: absolute;
+  top: 0;
+  right: 613px;
+  bottom: 2%;
+  left: 613px;
+  background-color: aliceblue;
+  z-index: -1; /* Send it behind the text */
+}
+
+.first_mini .first_mini_text {
+  position: relative;
+  margin-left: -4%;
+  font-size: 10px; /* Adjust the font size as needed */
+  z-index: 1; /* Bring the text to the front */
+}
+
+.first_mini_text span {
+  background-color: indigo;
+  color: white;
+  font-size: 82%;
+  padding: 1%;
 }/*# sourceMappingURL=news.css.map */
