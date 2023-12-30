@@ -13,6 +13,11 @@
     src: url(/static/fonts/WithoutAltSans-Book.ttf);
 }
 
+@font-face {
+    font-family: Nixie;
+    src: url(/static/fonts/NixieOne.ttf);
+}
+
 body{
     background-image: url("/static/images/chelsea\ bg.png");
     background-repeat: no-repeat;
@@ -57,11 +62,12 @@ body{
 
 
 .first_news div{
-    padding: 72px;
+    padding: 84px;
     border: solid white 4px;
     box-sizing: border-box;
     background-color: white;
     font-family: Without;
+    font-weight: lighter;
 }
 
 .first_news div span{
@@ -106,43 +112,138 @@ body{
     display: flex;
     flex-direction: row;
     position: relative;
-    margin-top: 2%;
+    margin-top: 4%;
 }
 
+//making a background 
+.first_mini .background{
+    width: 333px;
+    height:100%;
+    left: 5%;
+    margin: 20px;
+    position:absolute;
+    background-color: aliceblue;
+    border-radius: 3px;
+}
+// adjusting the whole div
 .first_mini {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    color: black;
-    font-family:Without;
-    position: relative; /* Add position relative for positioning the background container */
-}
-
-.first_mini img {
-    border: solid 2px white;
-    width: 20%; /* Add this to match the image width */
-}
-
-.first_mini .background_container {
+    justify-content: center;
     position: absolute;
-    top: 0;
-    right: 613px;
-    bottom: 2%;
-    left: 613px;
-    background-color: aliceblue;
-    z-index: -1; /* Send it behind the text */
+    margin-left: 11%;
 }
-
-.first_mini .first_mini_text {
+//adjusting the image size
+.first_mini img{
+    width: 26%;
+}
+// positioning and overlaying the photo and text
+.first_mini .first_mini_text{
     position: relative;
-    margin-left: -4%;
-    font-size: 10px; /* Adjust the font size as needed */ 
-    z-index: 1; /* Bring the text to the front */
+    margin-left: 89px;
+    margin-top: 8px;
+    z-index: 1;
 }
 
-.first_mini_text span{
-    background-color: indigo;
-    color: white;
-    font-size: 82%;
-    padding: 1%;
+.text_info{
+    font-family: Without;
+    font-weight: lighter;
+    font-size: 112%;
+    position: relative;
+    margin-left: 2%;
 }
+
+
+.first_mini span{
+    font-family: Din;
+    font-size: 75%;
+    color: white;
+    background-color:blueviolet ;
+    padding: 2px;
+    position: relative;
+    margin-left: 2%;
+}
+
+//second mini news
+
+.second_mini .background_2{
+    width: 332px;
+    height:101%;
+    left: 39%;
+    margin: 20px;
+    position:absolute;
+    background-color: aliceblue;
+    border-radius: 3px;
+}
+
+.second_mini{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    margin-left: -1%;
+}
+
+.second_mini img{
+    width: 36%;
+}
+
+.second_mini .second_mini_text{
+    position: relative;
+    margin-left: 625px;
+    margin-top: 8px;
+    z-index: 1;
+}
+
+.second_mini_text span{
+    font-family: Din;
+    font-size: 75%;
+    color: white;
+    background-color:red ;
+    padding: 2px;
+    position: relative;
+    margin-left: 2%;
+}
+
+//third news
+
+.third_mini .background_3{
+    width: 329px;
+    height:101%;
+    left: 39%;
+    margin: 20px;
+    position:absolute;
+    background-color: aliceblue;
+    border-radius: 3px;
+}
+
+.third_mini{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    margin-left: 36%;
+}
+
+.third_mini img{
+    width: 57%;
+}
+
+.third_mini .third_mini_text{
+    position: relative;
+    margin-left: 402px;
+    margin-top: 8px;
+    z-index: 1;
+}
+
+.third_mini_text span{
+    font-family: Din;
+    font-size: 75%;
+    color: white;
+    background-color:red ;
+    padding: 2px;
+    position: relative;
+    margin-left: 2%;
+}
+
+
