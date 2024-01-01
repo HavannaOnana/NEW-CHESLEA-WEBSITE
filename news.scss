@@ -240,7 +240,7 @@ body{
     font-family: Din;
     font-size: 75%;
     color: white;
-    background-color:red ;
+    background-color:lightblue ;
     padding: 2px;
     position: relative;
     margin-left: 2%;
@@ -288,6 +288,45 @@ body{
     font-size: 75%;
     color: white;
     background-color:red ;
+    padding: 2px;
+    position: relative;
+    margin-left: 2%;
+}
+
+.story_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    margin-left: -16px;
+}
+
+.bg_story_2{
+    width: 331px;
+    height:101%;
+    left: 39%;
+    margin: 20px;
+    position:absolute;
+    background-color: aliceblue;
+    border-radius: 3px;
+}
+
+.story_2 img{
+  width: 35.65%;
+}
+
+.story_2 .story_2_text{
+    position: relative;
+    margin-left: 625.5px;
+    margin-top: 8px;
+    z-index: 1;
+}
+
+.story_2_text span{
+    font-family: Din;
+    font-size: 75%;
+    color: black ;
+    background-color:beige ;
     padding: 2px;
     position: relative;
     margin-left: 2%;
