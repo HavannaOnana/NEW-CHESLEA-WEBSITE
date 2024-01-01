@@ -232,4 +232,50 @@ body {
   padding: 2px;
   position: relative;
   margin-left: 2%;
+}
+
+.version2 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-top: 23%;
+}
+
+.story_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  margin-left: -7px;
+}
+
+.bg_story_1 {
+  width: 331px;
+  height: 101%;
+  left: 16%;
+  margin: 20px;
+  position: absolute;
+  background-color: aliceblue;
+  border-radius: 3px;
+}
+
+.story_1 img {
+  width: 26%;
+}
+
+.story_1 .story_1_text {
+  position: relative;
+  margin-left: 266px;
+  margin-top: 8px;
+  z-index: 1;
+}
+
+.story_1_text span {
+  font-family: Din;
+  font-size: 75%;
+  color: white;
+  background-color: red;
+  padding: 2px;
+  position: relative;
+  margin-left: 2%;
 }/*# sourceMappingURL=news.css.map */
