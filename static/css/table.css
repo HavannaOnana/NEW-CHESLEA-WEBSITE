@@ -18,6 +18,16 @@
   font-family: Coco_Sharp;
   src: url(/static/fonts/Coco-Sharp-Bold-trial.ttf);
 }
+body {
+  background-image: url("/static/images/chelsea table.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
 .nav_bar {
   display: flex;
   flex-direction: row;
@@ -52,15 +62,6 @@
   margin-top: 5%;
 }
 
-.epl_table .background {
-  width: 100%;
-  height: 12%;
-  position: absolute;
-  background-color: beige;
-  border-radius: 3px;
-  z-index: -1;
-}
-
 .epl_table h1 {
   font-family: Coco_Sharp;
   font-size: 55px;
@@ -70,14 +71,15 @@
 
 .premier_logo {
   position: relative;
-  margin-top: 5%;
-  margin-left: 7%;
+  margin-top: 3%;
+  margin-left: 39%;
 }
 
 table {
   position: relative;
   margin-left: 7%;
   border-collapse: collapse;
+  background-color: whitesmoke;
 }
 
 table th {
@@ -103,9 +105,56 @@ table th {
 }
 
 .club img {
+  width: 12%;
   margin-right: 4%;
 }
 
 .liverpool th {
-  background-color: aqua;
+  background-color: rgb(1, 27, 142);
+  color: white;
+}
+
+.aston_villa {
+  background-color: rgb(1, 27, 142);
+  color: white;
+}
+
+.man_city {
+  background-color: rgb(1, 27, 142);
+  color: white;
+}
+
+.arsenal {
+  background-color: rgb(1, 27, 142);
+  color: white;
+}
+
+.sheffield {
+  background-color: rgb(176, 29, 29);
+  color: white;
+}
+
+.luton {
+  background-color: rgb(176, 29, 29);
+  color: white;
+}
+
+.burnley {
+  background-color: rgb(176, 29, 29);
+  color: white;
+}
+
+.spurs {
+  background-color: rgb(215, 112, 10);
+  color: white;
+}
+
+.west_ham {
+  background-color: rgb(215, 112, 10);
+  color: white;
+}
+
+.man_united {
+  background-color: rgb(9, 160, 9);
+  color: white;
 }/*# sourceMappingURL=table.css.map */
