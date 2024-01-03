@@ -1,0 +1,263 @@
+@font-face {
+    font-family: Din;
+    src: url(/static/fonts/DIN\ Medium.ttf);
+  }
+
+@font-face {
+    font-family: Nimbus;
+    src: url(/static/fonts/NimbusSanL-Bol.otf);
+}
+
+@font-face {
+    font-family: Without;
+    src: url(/static/fonts/WithoutAltSans-Book.ttf);
+}
+
+@font-face {
+    font-family: Nixie;
+    src: url(/static/fonts/NixieOne.ttf);
+}
+
+@font-face {
+    font-family: Coco_Sharp;
+    src: url(/static/fonts/Coco-Sharp-Bold-trial.ttf);
+}
+
+body{
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: -5%;
+    z-index: 1;
+}
+
+.background{
+    width: 712px;
+    height:12%;
+    left: 26%;
+    position:absolute;
+    margin-top: -5%;
+    background-color: rgb(8, 46, 170);
+    border-radius: 13px;
+}
+
+.nav_bar img{
+    position: relative;
+    margin-left: 7%;
+}
+
+.nav_bar a{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+    font-family: Din;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease-in;
+}
+
+.nav_bar a:hover{
+    background-color: beige;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+table{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 16%;
+    font-family: Nixie;
+    border-collapse: collapse;
+}
+
+.headers{
+    font-size: 72%;
+    font-weight: 1000px;
+    color: rgb(10, 10, 133);
+}
+
+table th{
+    padding-left: 130px;
+    padding-bottom: 14px;
+    font-weight: bolder;
+    border-bottom: 1px solid #ddd;
+}
+
+.history{
+    position: relative;
+    margin-top: 5%;
+}
+
+.story_one{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@mixin left_content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+@mixin right_content{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.text{
+    position: relative;
+    margin-left: 5%;
+    font-family: Nixie;
+}
+
+.text_two{
+    position: relative;
+    margin-right: 7%;
+    font-family: Nixie;
+}
+
+h2{
+    font-family: Nimbus;
+    color: rgb(12, 12, 99);
+}
+
+.story_two{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.story_three{
+  @include left_content()
+}
+
+.story_four{
+    @include right_content()
+}
+
+.story_five{
+    @include left_content()
+}
+
+.story_six{
+    @include right_content()
+}
+
+.story_seven{
+    @include left_content()
+}
+
+.story_eight{
+    @include right_content()
+}
+
+.story_nine{
+    @include left_content()
+}
+
+.story_ten{
+    @include right_content()
+}
+
+.story_eleven{
+    @include left_content()
+}
+
+.story_twelve{
+    @include right_content()
+}
+
+.story_thirteen{
+    @include left_content()
+}
+
+.story_fourteen{
+    @include right_content()
+}
+
+.story_fifteen{
+    @include left_content()
+}
+
+.story_sixteen{
+    @include right_content()
+}
+
+.story_seventeen{
+    @include left_content()
+}
+
+.story_eighteen{
+    @include right_content()
+}
+
+.story_nineteen{
+    @include left_content()
+}
+
+.story_twenty{
+    @include right_content()
+}
+
+.story_twenty_one{
+    @include left_content()
+}
+
+.story_twenty_two{
+    @include right_content()
+}
+
+.story_twenty_three{
+    @include left_content()
+}
+
+.story_twenty_four{
+    @include right_content()
+}
+
+.story_twenty_five{
+    @include left_content()
+}
+
+.story_twenty_six{
+    @include right_content()
+}
+
+.story_twenty_seven{
+    @include left_content()
+}
+
+.story_twenty_eight{
+    @include right_content()
+}
+
+.story_twenty_nine{
+    @include left_content()
+}
+
+.story_thirty{
+    @include right_content()
+}
+
+.story_thirty_one{
+    @include left_content()
+}
+
+.story_thirty_two{
+    @include right_content()
+}
