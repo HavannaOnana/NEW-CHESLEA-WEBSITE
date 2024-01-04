@@ -317,4 +317,26 @@ body {
   padding: 2px;
   position: relative;
   margin-left: 2%;
+}
+
+.bg {
+  margin-top: 40%;
+  width: 193%;
+  height: 32%;
+  background-color: white;
+  z-index: 1;
+}
+
+.sponsors img {
+  width: 100%;
+}
+
+.sponsors {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 88%;
+  margin-top: -6%;
+  z-index: -1;
 }/*# sourceMappingURL=news.css.map */
