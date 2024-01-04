@@ -322,21 +322,22 @@ body {
 .bg {
   margin-top: 40%;
   width: 193%;
-  height: 32%;
+  height: 39%;
   background-color: white;
   z-index: 1;
 }
 
 .sponsors img {
-  width: 100%;
+  max-width: 100%;
+  padding: 5%;
+  margin-right: 19%;
 }
 
 .sponsors {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: space-around;
-  margin-left: 88%;
-  margin-top: -6%;
-  z-index: -1;
+  margin-left: 89%;
+  margin-top: -10%;
 }/*# sourceMappingURL=news.css.map */
